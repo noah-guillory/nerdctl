@@ -124,7 +124,8 @@ It does not necessarily mean that the corresponding features are missing in cont
 
 ## Container management
 
-### :whale: :blue_square: nerdctl run
+### :whale: :blue_square: 
+
 
 Run a command in a new container.
 
@@ -251,7 +252,7 @@ Volume flags:
   e.g., `-- mount type=bind,source=/src,target=/app,bind-propagation=shared`.
   - :whale: `type`: Current supported mount types are `bind`, `volume`, `tmpfs`.
     The defaul type will be set to `volume` if not specified.
-    i.e., `--mount src=vol-1,dst=/app,readonly` equals `--mount type=volum,src=vol-1,dst=/app,readonly`
+    i.e., `--mount src=vol-1,dst=/app,readonly` equals `--mount type=volume,src=vol-1,dst=/app,readonly`
   - Common Options:
     - :whale: `src`, `source`: Mount source spec for bind and volume. Mandatory for bind.
     - :whale: `dst`, `destination`, `target`: Mount destination spec.
